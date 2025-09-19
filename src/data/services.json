@@ -3,56 +3,36 @@
     "slug": "escuelas-om",
     "title": "Operaciones y Mantenimiento Escolar",
     "summary": "Mantenimiento planificado, seguridad eléctrica/sanitaria e informes claros para directivos.",
-    "bullets": [
-      "Proyectos de Ampliaciones",
-      "Seguridad eléctrica/sanitaria",
-      "Limpieza Áreas Verdes",
-      "Confiabilidad de operaciones"
-    ],
+    "bullets": ["Proyectos de Ampliaciones", "Seguridad eléctrica/sanitaria", "Limpieza Áreas Verdes", "Confiabilidad de operaciones"],
     "ctaLabel": "Auditar mi escuela",
     "route": "#escuelas",
-    "bgVideo": "/src/assets/videos/escuelas-bg.webm"
+    "bgVideo": "videos/escuelas-bg.webm"
   },
   {
     "slug": "agro-infra",
     "title": "Infraestructura Agropecuaria",
     "summary": "Proyectos listos para construir: planos, metrado y presupuesto.",
-    "bullets": [
-      "Porcino",
-      "Avícola",
-      "Planos + metrado + presupuesto",
-      "Asistencia de montaje"
-    ],
+    "bullets": ["Porcino", "Avícola", "Planos + metrado + presupuesto", "Asistencia de montaje"],
     "ctaLabel": "Solicitar catálogo",
     "route": "#agro",
-    "bgVideo": "/src/assets/videos/agro-bg.webm"
+    "bgVideo": "videos/agro-bg.webm"
   },
   {
     "slug": "paneles-solares",
     "title": "Paneles Solares",
     "summary": "Factibilidades con EDET y dimensionamiento honesto. Camino al simulador.",
-    "bullets": [
-      "Estudio de factibilidad EDET",
-      "Dimensionamiento honesto",
-      "Pasos del estudio",
-      "Plan de implementación"
-    ],
+    "bullets": ["Estudio de factibilidad EDET", "Dimensionamiento honesto", "Pasos del estudio", "Plan de implementación"],
     "ctaLabel": "Pedir factibilidad EDET",
     "route": "#solares",
-    "bgVideo": "/src/assets/videos/solares-bg.webm"
+    "bgVideo": "videos/solares-bg.webm"
   },
   {
     "slug": "casas-simulador",
     "title": "Construimos Casas",
     "summary": "Calculá costos y plazos por m² y terminación con APU transparente.",
-    "bullets": [
-      "Cálculo por m²",
-      "Etapas de terminación",
-      "Plazos estimados",
-      "Alcance claro"
-    ],
+    "bullets": ["Cálculo por m²", "Etapas de terminación", "Plazos estimados", "Alcance claro"],
     "ctaLabel": "Abrir simulador",
     "route": "#casas",
-    "bgVideo": "/src/assets/videos/casas-bg.webm"
+    "bgVideo": "videos/casas-bg.webm"
   }
 ]
