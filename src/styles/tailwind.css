@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === TOKENS (editar aquí) === */
+:root{
+  --bg:#0B0E13;
+  --bg-deep:#0F1220;
+  --primary:#5B5BF7;
+  --primary-alt:#6C63FF;
+  --secondary:#1C2240;
+  --neutral:#AEB4C2;
+  --text:#FFFFFF;
+  --text-soft:#EAEFFC;
+}
+
+/* Layout base para desplazamiento horizontal */
+html, body, #root { height: 100%; }
+body { background: var(--bg); color: var(--text); }
+
+.horizontal-scroll {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* 👉 gesto táctil fluido en mobile */
+  touch-action: pan-x pinch-zoom;
+}
+
+.scene {
+  min-width: 100vw;
+  height: 100vh; /* fallback */
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center px-5 py-3 rounded-xl bg-primary text-white shadow-glow transition-transform hover:scale-[1.03] focus:outline-none focus-visible:ring-2 focus-visible:ring-primary;
+  background: linear-gradient(135deg, var(--primary), var(--primary-alt));
+}
+
+/* Accesibilidad: oculto visual pero disponible para lectores */
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden; clip: rect(1px,1px,1px,1px);
+  white-space: nowrap; border: 0; padding: 0; margin: -1px;
+}
+
+/* 👉 altura real del viewport en móviles modernos */
+@supports (height: 100dvh) {
+  .scene { height: 100dvh; }
+}
+
+/* 👉 CTA flotante evita pisar la “isla”/barras en iPhone */
+.safe-bottom { padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 16px); }
+
+/* 👉 título fluido opcional (si querés usarlo en el hero) */
+.fluid-title { font-size: clamp(1.75rem, 6vw, 3.5rem); }
+
+
+/* === Separación para que el contenido no quede debajo de la Sidebar (md+) === */
+.with-sidebar { padding-left: 1rem; }               /* móvil: casi sin padding extra */
+@media (min-width: 768px) { .with-sidebar { padding-left: 11rem; } }  /* md */
+@media (min-width: 1024px){ .with-sidebar { padding-left: 13rem; } }  /* lg */
+@media (min-width: 1280px){ .with-sidebar { padding-left: 15rem; } }  /* xl */

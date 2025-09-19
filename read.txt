@@ -1,0 +1,16 @@
+REPOSITORIO
+https://github.com/Yrvingv/ageelprojects.git
+
+
+ENLACE A LA PAGINA YA CONSTITUIDA:
+https://yrvingv.github.io/ageelprojects/
+
+
+Considerando el archivo adjunto... que es una guia que hemos elaborado juntos para hacer deployment de páginas elaboradas en react.... Hagamos deploy para github los datos del repo son:
+
+REPOSITORIO
+https://github.com/Yrvingv/ageelprojects.git
+
+ENLACE A LA PAGINA YA CONSTITUIDA SERÁ: 
+https://yrvingv.github.io/ageelprojects/
+debemos crear la carpeta .github/workflow/ y grabar alli el archivo main.yml pero pudieramos confirmar su contenido para que no haya confusiones.

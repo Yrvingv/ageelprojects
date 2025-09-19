@@ -1,0 +1,14 @@
+{
+  "brand": "Ageel Projects Construcciones",
+  "whatsapp": "https://wa.me/541128390182?text=Hola,%20quiero%20coordinar%20una%20reuni%C3%B3n.",
+  "metrics": {
+    "years": 8,
+    "projects": 120,
+    "clients": 40
+  },
+  "toggles": {
+    "useGSAP": false,
+    "leadGenDownloads": false,
+    "reducedMotionDefault": false
+  }
+}

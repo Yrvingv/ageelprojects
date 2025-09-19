@@ -1,0 +1,6 @@
+# Simple sitemap for hash-based routes
+/#hub
+/#escuelas
+/#agro
+/#solares
+/#casas
