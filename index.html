@@ -3,17 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ageel Projects </title>
+    <title>Ageel Projects</title>
+
     <meta name="description" content="Escuelas O&M, infraestructura agro, paneles solares y simulador de viviendas. Ingeniería clara con costos y plazos medibles. 8+ años en Argentina." />
     <meta property="og:title" content="Ageel Projects Construcciones" />
     <meta property="og:description" content="Ingeniería clara con costos y plazos medibles." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/src/assets/images/og-cover.jpg" />
+    <!-- ✅ og:image y favicon desde /public usando BASE_URL -->
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" href="/src/assets/icons/favicon.png" />
+    <link rel="icon" href="%BASE_URL%images/favicon.png" />
   </head>
   <body class="bg-[#0B0E13] text-white">
     <div id="root"></div>
+    <!-- ✅ En dev apunta a /src/main.jsx; en build Vite lo cambia a /ageelprojects/assets/*.js -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
