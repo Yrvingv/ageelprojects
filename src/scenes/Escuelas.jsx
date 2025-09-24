@@ -112,7 +112,14 @@ export default function Escuelas(){
               initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} transition={{delay:0.45,duration:0.6}}
               className="mt-8"
             >
-              <a href="#escuelas" className="btn-primary">Auditar mi escuela</a>
+            <a
+              href="https://yrvingv.github.io/ageelelectricidad/"
+              className="btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Auditar mi escuela
+            </a>
             </motion.div>
           </div>
 
