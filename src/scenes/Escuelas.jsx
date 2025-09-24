@@ -95,7 +95,20 @@ export default function Escuelas(){
               className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-6 text-text-soft"
             >
               {(svc?.bullets ?? []).map((b,i)=>(
-                <li key={i} className="rounded-xl border border-secondary/50 p-3 bg-[rgba(28,34,64,0.35)]">{b}</li>
+                <li key={i} className="rounded-xl border border-secondary/50 p-3 bg-[rgba(28,34,64,0.35)]">
+                  {typeof b === 'string' ? (
+                    b
+                  ) : (
+                    <a
+                      href={b.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline hover:no-underline"
+                    >
+                      {b.text}
+                    </a>
+                  )}
+                </li>
               ))}
             </motion.ul>
 

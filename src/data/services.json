@@ -3,7 +3,12 @@
     "slug": "escuelas-om",
     "title": "Operaciones y Mantenimiento Escolar",
     "summary": "Mantenimiento planificado, seguridad eléctrica/sanitaria e informes claros para directivos.",
-    "bullets": ["Proyectos de Ampliaciones", "Seguridad eléctrica/sanitaria", "Limpieza Áreas Verdes", "Confiabilidad de operaciones"],
+    "bullets": [
+      "Proyectos de Ampliaciones",
+      { "text": "Seguridad eléctrica/sanitaria", "href": "https://yrvingv.github.io/ageelelectricidad/" },
+      "Limpieza Áreas Verdes",
+      "Confiabilidad de operaciones"
+    ],
     "ctaLabel": "Auditar mi escuela",
     "route": "#escuelas",
     "bgVideo": "videos/escuelas-bg.webm"
