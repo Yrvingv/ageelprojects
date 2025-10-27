@@ -47,7 +47,7 @@ export default function Navbar() {
       <PdfViewer
         open={openPdf}
         onClose={() => setOpenPdf(false)}
-        src="/pdfs/Manual_Practico_de_Construccion_Arquitec.pdf"
+        src={`${import.meta.env.BASE_URL}pdfs/Manual_Practico_de_Construccion_Arquitec.pdf`}
         title="Referencias para Cálculos — Manual práctico de construcción"
       />
     </>

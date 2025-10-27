@@ -9,7 +9,7 @@ const NAV_ITEMS = [
 
 // PDF público servido por Vite desde /public/pdfs
 const PDF = {
-  href: '/pdfs/Manual_Practico_de_Construccion_Arquitec.pdf',
+  href: `${import.meta.env.BASE_URL}pdfs/Manual_Practico_de_Construccion_Arquitec.pdf`,
   label: 'Ref. cálculos',
   id: 'refs',
   title: 'Referencias para Cálculos — Manual práctico de construcción',
