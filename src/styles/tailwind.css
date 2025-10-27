@@ -42,6 +42,8 @@ body { background: var(--bg); color: var(--text); }
   background: linear-gradient(135deg, var(--primary), var(--primary-alt));
 }
 
+
+
 /* Accesibilidad: oculto visual pero disponible para lectores */
 .visually-hidden {
   position: absolute !important;
